@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "pantheon",
+    "password": "3b0586044083476baf717beefcab3d84",
+    "database": "pantheon",
+    "host": "dbserver.dev.46ee2e44-8cd0-4b5c-a39f-1c6f7309b8b0.drush.in",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "pantheon",
+    "password": "3b0586044083476baf717beefcab3d84",
+    "database": "pantheon",
+    "host": "dbserver.dev.46ee2e44-8cd0-4b5c-a39f-1c6f7309b8b0.drush.in",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "pantheon",
+    "password": "3b0586044083476baf717beefcab3d84",
+    "database": "pantheon",
+    "host": "dbserver.dev.46ee2e44-8cd0-4b5c-a39f-1c6f7309b8b0.drush.in",
+    "dialect": "mysql"
+  }
+}

@@ -1,23 +1,23 @@
 {
   "development": {
-    "username": "root",
-    "password": "fishsticks",
-    "database": "OOMPH_Sequences",
-    "host": "127.0.0.1",
+    "username": "OOMPHproctors",
+    "password": "Fishsticks13!#",
+    "database": "OOMPHproctors",
+    "host": "OOMPHproctors.db.5391918.389.hostedresource.net",
     "dialect": "mysql"
   },
   "test": {
-    "username": "root",
-    "password": "fishsticks",
-    "database": "OOMPH_Sequences",
-    "host": "127.0.0.1",
+    "username": "OOMPHproctors",
+    "password": "Fishsticks13!#",
+    "database": "OOMPHproctors",
+    "host": "OOMPHproctors.db.5391918.389.hostedresource.net",
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": "fishsticks",
-    "database": "OOMPH_Sequences",
-    "host": "127.0.0.1",
+    "username": "OOMPHproctors",
+    "password": "Fishsticks13!#",
+    "database": "OOMPHproctors",
+    "host": "OOMPHproctors.db.5391918.389.hostedresource.net",
     "dialect": "mysql"
   }
 }

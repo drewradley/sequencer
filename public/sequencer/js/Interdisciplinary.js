@@ -1,0 +1,21 @@
+Interdisciplinary(
+    [
+    {"term":0,"year":1,"course":{"id":1,"name":"PHW200G","title":"Health and Social Behavior","term":0,"series":0,"inSequence":true,"link":"link goes here","column":0},"termActual":"Fall 1","yearActual":2019},
+    {"term":1,"year":1,"course":{"id":6,"name":"PHW250","title":"Epidemiologic Methods","term":1,"series":0,"inSequence":true,"link":"link goes here","column":0},"termActual":"Fall 2","yearActual":2019},
+    {"term":2,"year":2,"course":{"id":11,"name":"PHW200F","title":"Introduction to Environmental Health Sciences","term":2,"series":0,"inSequence":true,"link":"link goes here","column":0},"termActual":"Spring 1","yearActual":2020},
+    {"term":3,"year":2,"course":{"id":16,"name":"PHW142","title":"Introduction to Probability and Statistics","term":3,"series":0,"inSequence":true,"link":"link goes here","column":0},"termActual":"Spring 2","yearActual":2020},
+    {"term":4,"year":2,"course":{"id":20,"name":"PHW200E","title":"Health Policy and Management","term":4,"series":0,"inSequence":true,"link":"link goes here","column":0},"termActual":"Summer 1","yearActual":2020},
+    {"term":5,"year":2,"course":{"id":0,"name":"Choose From","title":"PHW206 (CHS) PHW204 (CHS) PHW227A (HPM)","term":-1,"series":0,"inSequence":false,"link":"link goes here","column":0},"termActual":"Summer 2","yearActual":2020},
+    {"term":0,"year":2,"course":{"id":0,"name":"Choose From","title":"PHW260 (elective) PHW220 (HPM) PHW250F (Epi - sequence) PHW224 (HPM)","term":-1,"series":0,"inSequence":false,"link":"link goes here","column":0},"termActual":"Fall 1","yearActual":2020},
+    {"term":1,"year":2,"course":{"id":0,"name":"Choose From","title":"PHW213 (GH) PHW272C (SDS) PHW250G (Epi-sequence) PHW226A (HPM)","term":-1,"series":0,"inSequence":false,"link":"link goes here","column":0},"termActual":"Fall 2","yearActual":2020},
+    {"term":2,"year":3,"course":{"id":12,"name":"PHW218","title":"Evaluation of Health and Social Programs","term":2,"series":0,"inSequence":true,"link":"link goes here","column":1},"termActual":"Spring 1","yearActual":2021},
+    {"term":3,"year":3,"course":{"id":17,"name":"PHW219","title":"Social & Behavioral Health: Intro to Survey Methods","term":3,"series":0,"inSequence":true,"link":"link goes here","column":1},"termActual":"Spring 2","yearActual":2021},
+    {"term":4,"year":3,"course":{"id":21,"name":"PHW289","title":"Interdisciplinary Seminar","term":4,"series":0,"inSequence":true,"link":"link goes here","column":0},"termActual":"Summer 1","yearActual":2021},
+    {"term":5,"year":3,"course":{"id":0,"name":"Choose From","title":"PHW206 (CHS) PHW204 (CHS) PHW227A (HPM)","term":-1,"series":0,"inSequence":false,"link":"link goes here","column":0},"termActual":"Summer 2","yearActual":2021},
+    {"term":0,"year":3,"course":{"id":0,"name":"Choose From","title":"PHW260 (elective) PHW220 (HPM) PHW250F (Epi - sequence) PHW224 (HPM)","term":-1,"series":0,"inSequence":false,"link":"link goes here","column":0},"termActual":"Fall 1","yearActual":2021},
+    {"term":1,"year":3,"course":{"id":0,"name":"Choose From","title":"PHW213 (GH) PHW272C (SDS) PHW250G (Epi-sequence) PHW226A (HPM)","term":-1,"series":0,"inSequence":false,"link":"link goes here","column":0},"termActual":"Fall 2","yearActual":2021},
+    {"term":2,"year":4,"course":{"id":0,"name":"Choose From","title":"PHW212 (GH) PHW272A (SDS-sequence) PHW226C (HPM)","term":-1,"series":0,"inSequence":false,"link":"link goes here","column":0},"termActual":"Spring 1","yearActual":2022},
+    {"term":3,"year":4,"course":{"id":0,"name":"Choose From","title":"PHW209 (GH) PHW272B (SDS-sequence) PHW223 (HPM)","term":-1,"series":0,"inSequence":false,"link":"link goes here","column":0},"termActual":"Spring 2","yearActual":2022},
+    {"term":4,"year":4,"course":{"id":22,"name":"PHW257","title":"Emergency Preparedness and Disaster Management","term":4,"series":0,"inSequence":true,"link":"link goes here","column":1},"termActual":"Summer 1","yearActual":2022},
+    {"term":5,"year":4,"course":{"id":0,"name":"Choose From","title":"PHW206 (CHS) PHW204 (CHS) PHW227A (HPM)","term":-1,"series":0,"inSequence":false,"link":"link goes here","column":0},"termActual":"Summer 2","yearActual":2022}
+    ]   )
