@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "OOMPHproctors",
+    "password": "Fishsticks13!#",
+    "database": "OOMPHproctors",
+    "host": "OOMPHproctors.db.5391918.389.hostedresource.net",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "OOMPHproctors",
+    "password": "Fishsticks13!#",
+    "database": "OOMPHproctors",
+    "host": "OOMPHproctors.db.5391918.389.hostedresource.net",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "OOMPHproctors",
+    "password": "Fishsticks13!#",
+    "database": "OOMPHproctors",
+    "host": "OOMPHproctors.db.5391918.389.hostedresource.net",
+    "dialect": "mysql"
+  }
+}
