@@ -52,7 +52,7 @@ if (process.env.NODE_ENV === 'production') {
 // );
 // });
 // Syncing our database and logging a message to the user upon success
-db.sequelize.sync({force:true}).then(function() {
+db.sequelize.sync().then(function() { //{force:true}
   app.listen(PORT, function() {
     console.log("==> 🌎  Listening on port %s. Visit http://localhost:%s/ in your browser.", PORT, PORT);
   });
