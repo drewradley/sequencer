@@ -59,7 +59,7 @@ $(document).ready(function() {
   function signUpUser(proctorName,proctorInstitution,
                       proctorEmail,proctorPhone,proctorType,studentEmail,studentNameFirst,
                       studentNameLast,studentAccommodations,studentCurCourse) {
-    $.post("/api/newproctor", {
+    $.post("/api/updateproctor", {
       proctorName: proctorName,
       proctorInstitution: proctorInstitution,
       proctorEmail: proctorEmail,
@@ -74,7 +74,7 @@ $(document).ready(function() {
       window.location.replace(data);
       // If there's an error, handle it by throwing up a boostrap alert
     }).catch(handleLoginErr);
-    alert("Proctor has been saved")
+    alert("Proctor has been Updated")
   }
 
   function handleLoginErr(err) {

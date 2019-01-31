@@ -110,7 +110,7 @@
                 <div class="navbar yamm navbar-default">
                     <div id="navbar-collapse-1" class="navbar-collapse collapse pull-right">
                         <nav >
-                            <div class="menu-main-container"><ul id="king-mainmenu" class="nav navbar-nav"><li id="menu-item-8" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-5 current_page_item dropdown menu-item-8 yam-fwr"><a href="/">Homepage</a></li>
+                            <div class="menu-main-container"><ul id="king-mainmenu" class="nav navbar-nav"><li id="menu-item-8" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-5 current_page_item dropdown menu-item-8 yam-fwr"><a href="./">Homepage</a></li>
     <!-- <li id="menu-item-37" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-37 yam-fwr"><a href="https://onlinemph.berkeley.edu/navigation/">About</a>
     <ul class="dropdown-menu three">
         <li id="menu-item-67" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown-submenu mul"><a href="https://onlinemph.berkeley.edu/student-experience/">Student Experience</a>
@@ -163,9 +163,8 @@
     <li id="menu-item-1332" class="buynowbuto menu-item menu-item-type-custom menu-item-object-custom dropdown menu-item-1332 yam-fwr"><a target="_blank" href="http://grad.berkeley.edu/admissions/apply/">Apply Now</a></li>
     <li id="menu-item-115" class="buynowbuto menu-item menu-item-type-post_type menu-item-object-page dropdown menu-item-115 yam-fwr"><a href="https://onlinemph.berkeley.edu/request-info/">Request Info</a></li> -->
     
-    <li id="menu-item-115" class="buynowbuto menu-item menu-item-type-post_type menu-item-object-page dropdown menu-item-115 yam-fwr"><a href="/newproctor">Add Proctor</a></li>
-    <li id="menu-item-115" class="buynowbuto menu-item menu-item-type-post_type menu-item-object-page dropdown menu-item-115 yam-fwr"><a href="http://localhost:3000/">Add Sequence</a></li>
-
+    <li id="menu-item-115" class="buynowbuto menu-item menu-item-type-post_type menu-item-object-page dropdown menu-item-115 yam-fwr"><a href="./sequences.html">Saved Information</a></li>
+    <li id="menu-item-115" class="buynowbuto menu-item menu-item-type-post_type menu-item-object-page dropdown menu-item-115 yam-fwr"><a href="/sequencer/sequencer.html">Add Sequence</a></li>
     <!-- <li id="menu-item-115" class="buynowbuto menu-item menu-item-type-post_type menu-item-object-page dropdown menu-item-115 yam-fwr"><a href="./login.html">Log in</a></li> -->
     </ul></div></nav></div></div></div>
     
@@ -286,38 +285,79 @@ $("menu-item-117").click(function() {
     </div>
     <div class="kc-elm kc-css-951214" style="height: 20px; clear: both; width:100%;"></div></div></div></div></div></section><section class="kc-elm kc-css-649410 kc_row"><div class="kc-row-container  kc-container"><div class="kc-wrap-columns"><div class="kc-elm kc-css-385289 kc_col-sm-12 kc_column kc_col-sm-12"><div class="kc-col-container"><div class="kc-elm kc-css-477835" style="height: 45px; clear: both; width:100%;"></div></div></div></div></div></section><section class="kc-elm kc-css-78374 kc_row"><div class="kc-row-container  kc-container"><div class="kc-wrap-columns"><div class="kc-elm kc-css-666833 kc_col-sm-6 kc_column kc_col-sm-6"><div class="kc-col-container"><div class="kc-elm kc-css-617167" style="height: 20px; clear: both; width:100%;"></div><div class="kc-elm kc-css-129854 kc_shortcode kc_single_image">
 <!-- STUFFF GOES HERE -->
-<!-- <div class="row">
-    <div class="col-md-4 col-md-offset-4"> -->
-        <h2>Welcome </h2><h4><span class="member-name"id="member-name"></span></h4>
-        <div class="container">
-            <div class="row">
-                    <div class="col-md-6">
-                            <h3 class = "sequences">Sequences</h3><hr>
-                            <ul id="sequence">
-                    
-                            </ul>
-                            <p><span class="sequence"></span><hr></p>
-                    </div>
-                    <div class="col-md-6">
-                            <h3 class = "proctors">Proctors</h3><hr>
-                            <ul id="proctor">
-                    
-                            </ul>
-                            <p><span class="proctor"></span><hr></p>
-                    </div>
-            
-            </div>   
-        </div>
+<h2>Update proctor</h2>
+<h4>Student Information</h4>
+        <form class="newproctor">
+            <div class="form-group">
+                <label for="exampleInputSFN">Student First Name</label>
+                <input type="text" class="form-control" id="SFN-input" placeholder="Student First Name">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputSLN">Student Last Name</label>
+                <input type="text" class="form-control" id="SLN-input" placeholder="Student Last Name">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputSE">Student Email address</label>
+                <input type="email" class="form-control" id="SE-input" placeholder="Student Email address">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputSA">Student Accommodations</label>
+                <input type="text" class="form-control" id="SA-input" placeholder="Student Accommodations">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputSCC">Student Current Course</label>
+                <input type="text" class="form-control" id="SCC-input" placeholder="Student Current Course">
+              </div>
+              
+            <!-- Proctor full name
+            Proctor institution
+            Proctor institution email address (can't be a personal email address)
+            Proctor institution phone number (can't be a personal phone number) -->
+            <h4>Proctor Information</h4>
+            <div class="form-group">
+            <label for="exampleInputProctorName">Proctor full name</label>
+                <input type="text" class="form-control" id="PN-input" placeholder="Proctor full name">
+              </div> 
+
+          <div class="form-group">
+            <label for="exampleInputPI">Proctor institution</label>
+                <input type="text" class="form-control" id="PI-input" placeholder="Proctor institution">
+              </div> 
+              
+          <div class="form-group">
+            <label for="exampleInputProctorEmail">Proctor institution email address</label>
+                <input type="email" class="form-control" id="PE-input" placeholder="Proctor institution email address">
+              </div> 
+
+          <div class="form-group">
+            <label for="exampleInputProctorPhone">Proctor institution phone number</label>
+                <input type="text" class="form-control" id="PP-input" placeholder="Proctor institution phone number">
+              </div> 
+              <div class="form-group">
+                  <label for="exampleInputProctorRelationship">Proctor Relationship: </label>
+              <select name="ProctorRelationship" id="PP-type" >
+                <option value="Professional proctor">Professional proctor</option>
+                <option value="Educator">Educator</option>
+                <option value="Librarian">Librarian</option>
+                <option value="Doctor">Doctor</option>
+                <option value="Human Resources Manager">Human Resources Manager</option>
+              </select>
+            </div>
+            <!-- ++++++++++++++++++++++++++++++++++++++++++++++++ -->
+           
+          <!-- <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="password-input" placeholder="Password">
+          </div> -->
+          <div style="display: none" id="alert" class="alert alert-danger" role="alert">
+            <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+            <span class="sr-only">Error:</span> <span class="msg"></span>
+          </div>
+          <button type="submit" class="btn btn-default">Update Proctor</button>
+        </form>
         
-        <!-- <p></p> -->
-
-    <!-- </div>
-  </div> -->
-
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script type="text/javascript" src="./js/sequences.js"></script>
-
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/updateproctor.js"></script>
 <!-- END STUFF -->
             <!-- <img src="https://onlinemph.berkeley.edu/wp-content/uploads/2018/02/Public-Health-Jobs.jpg.jpg" class="" alt="" />    </div> -->
     

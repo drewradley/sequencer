@@ -286,14 +286,35 @@ $("menu-item-117").click(function() {
     <div class="kc-elm kc-css-951214" style="height: 20px; clear: both; width:100%;"></div></div></div></div></div></section><section class="kc-elm kc-css-649410 kc_row"><div class="kc-row-container  kc-container"><div class="kc-wrap-columns"><div class="kc-elm kc-css-385289 kc_col-sm-12 kc_column kc_col-sm-12"><div class="kc-col-container"><div class="kc-elm kc-css-477835" style="height: 45px; clear: both; width:100%;"></div></div></div></div></div></section><section class="kc-elm kc-css-78374 kc_row"><div class="kc-row-container  kc-container"><div class="kc-wrap-columns"><div class="kc-elm kc-css-666833 kc_col-sm-6 kc_column kc_col-sm-6"><div class="kc-col-container"><div class="kc-elm kc-css-617167" style="height: 20px; clear: both; width:100%;"></div><div class="kc-elm kc-css-129854 kc_shortcode kc_single_image">
 <!-- STUFFF GOES HERE -->
 <h2>Add new proctor</h2>
+<h4>Student Information</h4>
         <form class="newproctor">
-          
+            <div class="form-group">
+                <label for="exampleInputSFN">Student First Name</label>
+                <input type="text" class="form-control" id="SFN-input" placeholder="Student First Name">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputSLN">Student Last Name</label>
+                <input type="text" class="form-control" id="SLN-input" placeholder="Student Last Name">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputSE">Student Email address</label>
+                <input type="email" class="form-control" id="SE-input" placeholder="Student Email address">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputSA">Student Accommodations</label>
+                <input type="text" class="form-control" id="SA-input" placeholder="Student Accommodations">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputSCC">Student Current Course</label>
+                <input type="text" class="form-control" id="SCC-input" placeholder="Student Current Course">
+              </div>
               
             <!-- Proctor full name
             Proctor institution
             Proctor institution email address (can't be a personal email address)
             Proctor institution phone number (can't be a personal phone number) -->
-          <div class="form-group">
+            <h4>Proctor Information</h4>
+            <div class="form-group">
             <label for="exampleInputProctorName">Proctor full name</label>
                 <input type="text" class="form-control" id="PN-input" placeholder="Proctor full name">
               </div> 
@@ -305,7 +326,7 @@ $("menu-item-117").click(function() {
               
           <div class="form-group">
             <label for="exampleInputProctorEmail">Proctor institution email address</label>
-                <input type="text" class="form-control" id="PE-input" placeholder="Proctor institution email address">
+                <input type="email" class="form-control" id="PE-input" placeholder="Proctor institution email address">
               </div> 
 
           <div class="form-group">
@@ -323,11 +344,7 @@ $("menu-item-117").click(function() {
               </select>
             </div>
             <!-- ++++++++++++++++++++++++++++++++++++++++++++++++ -->
-            <!-- <div class="form-group">
-            <label for="exampleInputEmail1">Your Email address</label>
-            <input type="email" class="form-control" id="email-input" placeholder="Email">
-          </div> -->
-
+           
           <!-- <div class="form-group">
             <label for="exampleInputPassword1">Password</label>
             <input type="password" class="form-control" id="password-input" placeholder="Password">
