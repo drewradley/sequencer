@@ -106,7 +106,7 @@ module.exports = function(app) {
     });
   });
 
-  app.post("/api/updateclass", function(req, res) {
+  app.post("/api/updateCourse", function(req, res) {
     console.log(req.body);
 
     db.Proctor.update({
@@ -219,12 +219,13 @@ module.exports = function(app) {
 
   });
   app.get("/api/findproctor/:email", function(req, res) {
+    console.log(req.params.email);
     if (req.user.email!='sph.digital.learning@berkeley.edu') {
       // The user is not logged in, send back an empty object
       res.json({});
       return;
     }// We just have to specify which todo we want to destroy with "where"
-    db.Proctor.find({
+    db.Proctor.findAll({
       where: {
         studentEmail: req.params.email
       }

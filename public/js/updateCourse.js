@@ -20,7 +20,7 @@ $(document).ready(function() {
   // When the signup button is click;ed, we validate the email and password are not blank
   signUpForm.on("submit", function(event) {
     event.preventDefault();
-    console.log(proctorType.val())
+    //console.log(proctorType.val())
     var proctorData = {
       // email: emailInput.val().trim(),
       // proctorName: proctorName.val().trim(),
@@ -44,7 +44,7 @@ $(document).ready(function() {
   // Does a post to the signup route. If succesful, we are redirected to the members page
   // Otherwise we log any errors
   function signUpUser(studentCurCourse) {
-    $.post("/api/updateproctor", {
+    $.post("/api/updateCourse", {
       
       studentCurCourse: studentCurCourse
     }).then(function(data) {
